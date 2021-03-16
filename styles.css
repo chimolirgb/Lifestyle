@@ -102,6 +102,16 @@ body{
   padding: 20px;
 }
 
+#home{
+  color: white;
+  text-decoration: underline;
+}
+#title_name{
+  color: white;
+  font-size: 25px;
+  text-shadow: 1px 1px 3px #ffffff;
+
+}
 .main_workout>.execrise{
   padding: 8px;
 }
@@ -183,9 +193,14 @@ body{
 .exec_popup_content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
   border: 1px solid #888;
-  width: 80%;
+  border-radius: 5px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .exec_popup>.exec_popup_content>.close {
@@ -199,8 +214,20 @@ body{
   color: rgb(116, 16, 16);
   cursor: pointer;
 }
-.vids{
-  border: none;
+
+#vids{
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.pop_text{
+  background-color: #C4C4C4;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px ;
+  width: 450px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 19px;
 }
 /* end this is trial */
 

@@ -4,10 +4,13 @@ var span = document.getElementsByClassName("close_multi");
 
 function exercise(){
   location.href = ("exercise.html");
-}
+};
 function diet(){
   location.href = ("diet.html");
-}
+};
+
+document.getElementById("home").addEventListener("click", function(){location.href=("index.html")});
+
 
 function setDataIndex() {
 
