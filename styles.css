@@ -1,0 +1,73 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: antiquewhite;
+  margin: 0;
+  text-align: center;
+}
+
+/*************************
+** Our Service Section**
+*************************/
+.services {
+  background-color: white;
+  margin-top: 30px;
+  width: auto;
+  height: 500px;
+  position: relative;
+}
+
+.services > .service_body{
+  background-color: #967A7A;
+  height: 400px;
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.services>.service_body>#text{
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+.services > .service_body p{
+  color: black;
+  font-size: 25px;
+  padding: 20px;
+}
+.services > .service_body >.service_buttons{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+.services > .service_body >.service_buttons p{
+  padding: 10px;
+  margin: 20px;
+}
+.services > .service_body >.service_buttons>.resp{
+  background-color: #C4C4C4;
+  width: 150px;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+.services > .service_body >.service_buttons>.exe_buttons{
+  float: left;
+}
+
+.services > .service_body >.service_buttons>.diet_buttons{
+  float: right;
+}
+.services > .service_body >.service_buttons>.resp:hover{
+  background-color: blue;
+  border-radius: 0%;
+}
