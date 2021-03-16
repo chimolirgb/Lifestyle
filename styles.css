@@ -1,0 +1,65 @@
+
+ 
+ nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+    z-index: 2;
+    
+ }
+nav>ul>li{
+    
+    display: inline-block;
+}
+nav>ul{
+    text-align: right;
+}
+ nav>ul>li>a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline;
+    color: rgba(255, 255, 255, 0.733);
+    text-align: right;
+    }
+ nav>ul>li>a:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),inset  0 0 1px rgba(255, 255, 255, 0.6);
+        background: rgba(221, 109, 35, 0.678);
+        color: rgba(0, 35, 122, 0.7);}
+
+
+    
+
+#background1{
+    background-image: url("healthy-foods.imgcache.rev51a8d57456d3bf0c72ed23fdef4c5831.jpg");
+    position: relative;
+    width: 100%;
+    min-height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+
+}
+#background2{
+    background-image: url("covid-home-exercise-ft-765x310.jpg");
+    position: absolute;
+    width: 100%;
+    min-height: 29rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+h1{
+    color: white;
+    font-family: 'Cookie', cursive;
+    font-size: 150px;
+    z-index: -2;
+}
