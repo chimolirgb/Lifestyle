@@ -95,7 +95,8 @@
       font-size: 100px;
       z-index: -2;
       font-weight: 300;
-      padding-top: 0.5em;
+      padding-top: 3em;
+      text-align: center left;
   }
 
   input[type=text], select, textarea {
@@ -206,4 +207,14 @@
     color: black;
     text-align: center;
     font-size: 70px;
+  }
+  @media screen and (min-width: 600px) {
+    #Feedback{
+     width: 100%; 
+    }
+    #title{
+      height: 50%;
+      width: 50%;
+      
+    }
   }
