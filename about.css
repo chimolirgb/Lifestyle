@@ -1,0 +1,45 @@
+#background{
+    background: url(./images/the_best_vitamins_for_exercise_natural_workout_supplements_8845_orig.jpg);
+    text-align: center;
+    text-underline-position: below;
+
+    color: white;
+    padding: 20px;
+    object-fit: cover;
+    height: 450px;
+    width: 800px;
+    background-repeat: no-repeat;
+    align-items: center;
+    font-size: x-large;
+}
+#overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0n;
+    cursor: pointer;
+}
+.meal{
+    padding: 1px;
+    height: auto;
+    width: 100%;
+}
+.meal{
+    text-align: justify;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    float: left;
+
+}
+.fruits{
+    text-align: left;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    float: left;
+}
+
