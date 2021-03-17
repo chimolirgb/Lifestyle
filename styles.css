@@ -1,13 +1,26 @@
-body{
+ body{
+  
 
-     Background2{
-        <img class="Background" src="" alt="">
-    background-color: white
+background: rgba(0,0,0,0.6) url(./images/background\ 2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  width: 100%;
+  color:white;
+  font-size: x-large;
 }
+#Recipe_color>h2{
+    color: black;
 }
+
+
+
+
 #Smoothies>h3 {
-    color:purple;
-    font-size: large;
+    color:#AB4343;
+    font-size: xx-large;
     font-style: italic;
     padding-right: 50px;
 }
@@ -33,14 +46,15 @@ img{
     height: 130px;
 }
 #Raspberry Green Tea Smoothie>h2 {
-    font-size: large;
+    font-size: xx-large;
     font-style: normal;
     color: blue;
 }
 
-h2,
+
 h3 {
     text-align: center;
+
 }
 
 * {
@@ -52,8 +66,11 @@ h3 {
   }
 
   #Healthy Diet>h3 {
-    color:purple;
-    font-size: large;
+    color:maroon;
+    font-size: xx-large;
     font-style: italic;
     padding-right: 50px;
+}
+h2{
+    color:blue
 }
