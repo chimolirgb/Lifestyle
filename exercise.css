@@ -1,0 +1,284 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: antiquewhite;
+  margin: 0;
+  text-align: center;
+}
+
+/*************************
+** Our Service Section**
+*************************/
+.services {
+  background-color: white;
+  margin-top: 30px;
+  width: auto;
+  height: 500px;
+  position: relative;
+}
+
+.services > .service_body{
+  box-shadow: 0px 0px 7px #000000;
+  height: 400px;
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.services>.service_body>#text{
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+.services > .service_body p{
+  color: black;
+  font-size: 25px;
+  padding: 20px;
+}
+.services > .service_body >.service_buttons{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+.services > .service_body >.service_buttons p{
+  padding: 10px;
+  margin: 20px;
+}
+.services > .service_body >.service_buttons>.resp{
+  background-color: #C4C4C4;
+  width: 150px;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+.services > .service_body >.service_buttons>.exe_buttons{
+  float: left;
+}
+
+.services > .service_body >.service_buttons>.diet_buttons{
+  float: right;
+}
+.services > .service_body >.service_buttons>.resp:hover{
+  background-color: #AB4343;
+  border-radius: 0%;
+  border-radius: 5px;
+}
+
+/*******************
+**Execrise section**
+*******************/
+.opa_back{
+  background: rgba(0,0,0,0.6) url("./images/background3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  width: 100%;
+}
+
+
+.master{
+  /* background-color: green; */
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_workout{
+  /* background-color: greenyellow; */
+  margin: 8px -16px;
+  min-height: 500px;
+  width: 85%;
+  padding: 20px;
+}
+
+#home{
+  color: white;
+  text-decoration: underline;
+  font-size: 25px;
+}
+#home_text{
+  color: white;
+  font-size: 18px;
+}
+#title_name{
+  color: white;
+  font-size: 25px;
+  text-shadow: 1px 1px 3px #ffffff;
+
+}
+.main_workout>.execrise{
+  padding: 8px;
+}
+
+.execrise{
+  float: left;
+  width: 25%;
+}
+.main_workout::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.exec_column{
+  /* background-color: red; */
+  background-color: rgba(145, 145, 145, 0.884);
+  padding: 10px;
+  min-height: 300px;
+  border-radius: 5px;
+}
+.exec_column img{
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.exec_column>.exec_text{
+  /* background-color: rgb(252, 252, 252); */
+  min-height: 200px;
+  width: inherit;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chest, .back, .arm, .abdominal, .leg, .shoulders{
+  background-color: rgba(0, 0, 0, 0.644);
+  margin-top: 10px;
+  padding: 5px 10px 10px 10px;
+  border-radius: 10px;
+}
+.main_workout>.chest>.execrise{
+  padding: 8px;
+}
+.main_workout>.back>.execrise{
+  padding: 8px;
+}
+.main_workout>.arm>.execrise{
+  padding: 8px;
+}
+.main_workout>.abdominal>.execrise{
+  padding: 8px;
+}
+.main_workout>.leg>.execrise{
+  padding: 8px;
+}
+.main_workout>.shoulders>.execrise{
+  padding: 8px;
+}
+
+/* this is trial */
+
+.exec_popup {
+  background-color: rgba(0, 0, 0, 0.9); 
+  /* background-color: rgb(240, 1, 1); */
+  display: none;
+  position: fixed; 
+  width: 100%;
+  height: 100%; 
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.exec_popup_content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.exec_popup>.exec_popup_content>.close {
+  color: #967A7A;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: rgb(116, 16, 16);
+  cursor: pointer;
+}
+
+#vids{
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.pop_text{
+  background-color: #C4C4C4;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px ;
+  width: 450px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+/* end this is trial */
+
+
+
+/*********************
+**Responisve section**
+*********************/
+
+@media screen and (max-width: 1024px) {
+  .execrise {
+    width: 50%;
+  }
+  .exec_popup_content {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .execrise {
+    width: 50%;
+  }
+  .exec_column img{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  #vids{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 400;
+    height: 300px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .execrise {
+    width: 100%;
+  }
+  .exec_column img{
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+  }
+}
