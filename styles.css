@@ -1,0 +1,59 @@
+body{
+
+     Background2{
+        <img class="Background" src="" alt="">
+    background-color:white;
+}
+}
+#Smoothies>h3 {
+    color:purple;
+    font-size: large;
+    font-style: italic;
+    padding-right: 50px;
+}
+img{
+    border-radius: 9px;
+}
+#Green Dream Smoothie>img {
+    float: left;
+    border-radius: 1%;
+}
+img{
+    border-radius: 9px;
+}
+/* #Green Dream Smoothie>img{
+    float: left;
+    border-radius: 1%;
+} */
+#Smoothies {
+    width: 50%;
+    margin: 0 auto;
+}
+#Smoothies>p {
+    height: 130px;
+}
+#Raspberry Green Tea Smoothie>h2 {
+    font-size: large;
+    font-style: normal;
+    color: blue;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+
+  #Healthy Diet>h3 {
+    color:purple;
+    font-size: large;
+    font-style: italic;
+    padding-right: 50px;
+}
