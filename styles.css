@@ -241,6 +241,9 @@ body{
   .execrise {
     width: 50%;
   }
+  .exec_popup_content {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -253,6 +256,13 @@ body{
     height: 250px;
     border-radius: 10px;
   }
+  #vids{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 400;
+    height: 300px;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
