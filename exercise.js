@@ -6,7 +6,7 @@ function exercise(){
   location.href = ("exercise.html");
 };
 function diet(){
-  location.href = ("diet.html");
+  location.href = ("Diet.html");
 };
 
 document.getElementById("home").addEventListener("click", function(){location.href=("index.html")});
