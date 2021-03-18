@@ -1,0 +1,228 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+
+}
+body{
+  margin: auto;
+  overflow: auto;
+
+}
+@media (min-width: 768px) {
+  .background1 h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    position: relative;
+  }
+}
+/* @media screen and (max-width: 768px) {
+  .background1 {
+    height: 100vh;
+    padding: 0;
+  } */
+
+nav {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 0;
+  margin-right: 0%;
+  z-index: 2;
+  opacity: 70%;
+  position: relative;
+  overflow-y: hidden ;
+  background-color: rgba(255, 255, 255, 0.945);
+  text-align: right;
+  
+}
+.overlay{
+  position: absolute;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+}
+nav>ul>li{
+  overflow-y: hidden ;
+  display: inline-block;
+  height: 40px;
+}
+nav>ul{
+  text-align: right;
+
+}
+nav>ul>li>a {
+  padding: 18px;
+  margin-right: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline;
+  color:black;
+  text-align: right;
+  }
+nav>ul>li>a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),inset  0 0 1px rgba(255, 255, 255, 0.6);
+  background: #ab4343;
+  width: 50px;
+  height: 20px;
+}
+
+  
+
+#background1{
+  background-image: url("healthy-foods.imgcache.rev51a8d57456d3bf0c72ed23fdef4c5831.jpg");
+  position: relative;
+  width: 100%;
+  min-height: 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+
+}
+#background2{
+  background-image: url("covid-home-exercise-ft-765x310.jpg");
+  position: relative;
+  width: 100%;
+  min-height: 29rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+
+}
+h1{
+  color: white;
+  font-size: 100px;
+  z-index: -2;
+  font-weight: 300;
+  padding-top: 3em;
+  text-align: center left;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  background-color: #45a049;
+}  
+.column {
+  
+  width: 40%;
+  margin-top: 7px;
+  padding: 20px;
+  margin: auto;
+}
+.row{
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+#contacts{
+width: 100%;
+}
+#Feedback{
+color: black;
+text-align: justify;
+margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding-right: 3em;
+width: 70%;
+border:2px solid grey;
+background-color: white;
+
+}
+#title{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+ 
+  position: relative;
+}
+.backGround3{
+background-image: url("contactus.jpg");
+position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+margin: auto;
+padding-top: 5em;
+
+}
+.slack{
+display: flex;
+flex-direction: row;
+
+font-size: 15px;
+}
+.gmail{
+display: flex;
+flex-direction: row;
+}
+.gmail p{
+margin-top: 0.1em;
+}
+.slack p{
+margin-top: 0.1em;
+}
+#contacts h1 {
+color: black;
+text-align: center;
+font-size: 70px;
+}
+@media screen and (min-width: 600px) {
+#Feedback{
+ width: 100%; 
+}
+#title{
+  height: 50%;
+  width: 50%;
+  
+}
+}
