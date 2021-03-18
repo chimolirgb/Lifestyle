@@ -1,6 +1,6 @@
 # Lifestyle
 ## Author
-Nancy Kemunto
+Nancy Kemunto, Tamminga Givondo, Samuel Maingi, Lucy Chimoli 
 ## Description
 Its a website that will help you know some cool exercises and simple recipes to keep you fit
 ### Prerequisites
