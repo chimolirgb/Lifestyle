@@ -5,12 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lifestyle</title>
-  
-    
-    
     <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
-   
-<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="exercise.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body> 
@@ -28,97 +25,113 @@
         <div id="background1">
             <div class="overlay"> 
               
-                    <h1 id="lifestyle-h1">Lifestyle</h1>
+              <h1 id="lifestyle-h1">Lifestyle</h1>
                 
-                </div>
-            </div>   
-            <div id="background2">
-                <div class="overlay">
-
-                </div>
             </div>
-            <div id="contacts"><h1>Contact Us</h1>
-                <div class="backGround3">
-                <div class="row">
-                    <div class="column">
-                      <form>
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" class="name" name="firstname" placeholder="Your name..">
-                        <label for="lname clear">Last Name</label>
-                        <input type="text" id="fname" class="name" name="lastname" placeholder="Your last name..">
-                        <label for="country">Country</label>
-                        <select id="country" name="country">
-                          <option value="kenya">Kenya</option>
-                          <option value="canada">Canada</option>
-                          <option value="usa">USA</option>
-                          <option value="australia">Australia</option>
-                          <option value="sudan">Sudan</option>
-                          <option value="uganda">Uganda</option>
-                          <option value="southAfrica">South Africa</option>
-                          <option value="ghana">Ghana</option>
-                          <option value="egypt">Egypt</option>
-                          <option value="uk">UK</option>
-                          <option value="schotland">Schotland</option>
-                        </select>
-                        <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                        <input type="submit" value="Submit" id="submit">
-                      </form>
+        </div>   
+        <div id="background2">
+            <div class="overlay">
+
+            </div>
+        </div>
+        <!-- starting of service section -->
+        <section class="services">
+          <div class="service_title">
+            <h1>OUR SERVICE</h1>
+          </div>
+          <div class="service_body">
+            <p id="text">Services We Offer</p>
+            <div class="service_buttons">
+              <p>Health is Wealth, Keep this treasure Safe</p>
+              <input class="exe_buttons resp" id="exe_button" type="button" value="Exercise" onclick="exercise()">
+              <input class="diet_buttons resp" id="diet_button" type="button" value="Diet" onclick="diet()">
+            </div>
+          </div>
+        </section>
+        <!-- end of service section -->
+        <div id="contacts"><h1>Contact Us</h1>
+          <div class="backGround3">
+            <div class="row">
+                <div class="column">
+                  <form>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" class="name" name="firstname" placeholder="Your name..">
+                    <label for="lname clear">Last Name</label>
+                    <input type="text" id="fname" class="name" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="kenya">Kenya</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                      <option value="australia">Australia</option>
+                      <option value="sudan">Sudan</option>
+                      <option value="uganda">Uganda</option>
+                      <option value="southAfrica">South Africa</option>
+                      <option value="ghana">Ghana</option>
+                      <option value="egypt">Egypt</option>
+                      <option value="uk">UK</option>
+                      <option value="schotland">Schotland</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <input type="submit" value="Submit" id="submit">
+                  </form>
+                </div>
+                <div id="title">
+                    <h2>Feedback</h2>
+                    <h3>Contact us on:</h3>
                     </div>
-                    <div id="title">
-                        <h2>Feedback</h2>
-                        <h3>Contact us on:</h3>
-                        </div>
-                    <div id="Feedback">
-                        
-                        <div class="feedBack">
-                        <h3>Lucy Chimoli</h3>
+                <div id="Feedback">
+                    
+                    <div class="feedBack">
+                    <h3>Lucy Chimoli</h3>
+                    <div class="gmail">
+                          <img src="gmail.png" alt="gmail logo" width="25px"
+                        height="25px"> <p>:lucychimoli@gmial.com</p>
+                    </div>
+                    <div class="slack">
+                        <img src="slack.png" alt="slack" height="25px" width="25px">
+                    <p>:@lucychimoli</p>
+                    </div>
+                    </div>
+                    <div class="feedBack">
+                        <h3>Tamminga Budds</h3>
                         <div class="gmail">
-                             <img src="gmail.png" alt="gmail logo" width="25px"
-                            height="25px"> <p>:lucychimoli@gmial.com</p>
+                              <img src="gmail.png" alt="gmail logo" width="25px"
+                            height="25px"> <p>:budds300@gmail.com</p>
                         </div>
                         <div class="slack">
-                            <img src="slack.png" alt="slack" height="25px" width="25px">
-                        <p>:@lucychimoli</p>
+                            <img src="slack.png" alt="slack" height="25px" width="25px"> 
+                            <p>:@budds givondo</p>
+                    </div>
+                    </div>
+                    <div class="feedBack">
+                        <h3>Samuel Maingi</h3>
+                        <div class="gmail"> 
+                            <img src="gmail.png" alt="gmail logo" width="25px"
+                            height="25px"> <p>:samumaingi5@gmail.com</p>
                         </div>
+                        <div class="slack">
+                            <img src="slack.png" alt="slack" height="25px" width="25px"> 
+                            <p>:@maingi</p>
                         </div>
-                        <div class="feedBack">
-                            <h3>Tamminga Budds</h3>
-                            <div class="gmail">
-                                 <img src="gmail.png" alt="gmail logo" width="25px"
-                                height="25px"> <p>:budds300@gmail.com</p>
-                            </div>
-                            <div class="slack">
-                                <img src="slack.png" alt="slack" height="25px" width="25px"> 
-                                <p>:@budds givondo</p>
+                    </div>
+                    <div class="feedBack">
+                        <h3>Nancy Kemunto</h3>
+                        <div class="gmail"> 
+                            <img src="gmail.png" alt="gmail logo" width="25px"
+                            height="25px"> <p>:nancyKemunto@gmail.com</p>
                         </div>
+                        <div class="slack">
+                            <img src="slack.png" alt="slack" height="25px" width="25px"> 
+                            <p>:@nancyKemunto</p>
                         </div>
-                        <div class="feedBack">
-                            <h3>Samuel Maingi</h3>
-                            <div class="gmail"> 
-                                <img src="gmail.png" alt="gmail logo" width="25px"
-                                height="25px"> <p>:samumaingi5@gmail.com</p>
-                            </div>
-                            <div class="slack">
-                                <img src="slack.png" alt="slack" height="25px" width="25px"> 
-                                <p>:@maingi</p>
-                            </div>
-                         </div>
-                        <div class="feedBack">
-                            <h3>Nancy Kemunto</h3>
-                            <div class="gmail"> 
-                                <img src="gmail.png" alt="gmail logo" width="25px"
-                                height="25px"> <p>:nancyKemunto@gmail.com</p>
-                            </div>
-                            <div class="slack">
-                                <img src="slack.png" alt="slack" height="25px" width="25px"> 
-                                <p>:@nancyKemunto</p>
-                            </div>
-                         </div>
-                    </div> 
-                 </div>
-                 </div>  
-             </div>
+                    </div>
+                </div> 
+              </div>
+            </div>  
+          </div>
 <script src="script.js"></script>
+<script src="exercise.js"></script>
 </body>
 </html>
